@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTIPAGE HOMEWORK</title>
+    <link rel="stylesheet" href="multipage.css">
+</head>
+<body>
+    <div class ="navbar">
+        <div class ="navleft">
+            <h1 class="logo">LOGO</h1>
+            <nav>
+                <ul>
+                    <li><a href= "#"> MUSIC</a></li>
+                    <li><a href= "#"> PRODUCTS</a></li>
+                    <li><a href= "#"> PLAY</a></li>
+                    <li><a href= "#"> CONNECT</a></li>
+                </ul>
+            </nav>
+            <form>
+                <input id="searchbox" type="text" id ="search" name="search" value="">
+                <div id = "searchbuttonback">
+                    <input type="image" src="https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png" width= 20px height= 20px  id="seachbutton" alt="submit"/>
+                </div>
+            </form>
+        </div>
+        <div class="navright">
+            <div>
+                <a href="#">SIGN IN</a> /
+                <a href="#">DEALER NEAR YOU</a>
+            </div>
+            <div>
+                <a href="#">CART</a>
+                <img id="cart" scr="http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg" width= 20px alt="cart"/>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
